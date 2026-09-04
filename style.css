@@ -66,19 +66,29 @@ footer{
 
 }
 .vic{
+  position: relative;
   height: 100px;
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
+  top: -0rem;
+  left: -14rem;
+
   
 
   
 }
 .fut{
   margin-bottom: 200px;
-  ;
+  
   
 }
+.fut h2{
+  margin-right: 500px;
+  margin-top: 30px;
+}
+.fut p{
+  margin-right: 500px;
+  margin-bottom: 50px;
+}
+
 
 @media(max-width:700px){
   section{
