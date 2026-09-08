@@ -29,75 +29,116 @@ section{
   display: flex;
   height: 600px;
 }
+.front{
+  position: relative;
+  top: 0rem;
+}
 .hero h2{
   margin-bottom: 0;
+  position: relative;
+  left: 1.5rem;
+  font-size: 30px;
+  letter-spacing: 5px;
 }
 
 .hero p{
   margin-top: 0;
   margin-bottom: 40px;
+  font-size: 30.5px;
 }
 .catchub{
 height: 46%;
+position: relative;
+top: -1rem;
 }
 .text2{
 position: relative;
-left: -7rem;
+left: -0.7rem;
 top: -4rem;
+}
+.text2 h2{
+  font-size: 2.3rem;
+  font-weight: 510;
+  letter-spacing: 8px;
+}
+.text2 p{
+  font-size: 2rem;
+  letter-spacing: 4px;
+  font-weight: lighter;
+  /* font-weight: -1000rem; */
 }
 .text3{
 position: relative;
-left: 8rem;
-top: -1rem;
+left: 6rem;
+top: 2rem;
+}
+.text3 h2{
+  font-size: 2.3rem;
+  font-weight: 510;
+  letter-spacing: 8px;
+}
+.text3 p{
+  font-size: 2rem;
+  letter-spacing: 4px;
+  font-weight: lighter;
+  /* font-weight: -1000rem; */
 }
 .logo{
-  width:350px;
+  width:390px;
   margin-bottom:0px;
+  position: relative;
+  left: 2rem;
 }
 
 .screen{
-  width: 100%;
-  height: 530px;
-  margin-top: 130px;
+ height: 595px;
+ margin-top: 100px;
+ position: relative;
+ left: 1rem;
+  /* margin-top: 130px; */
 }
-.screen-d
-{
- max-width:700px;
-}
+/* .screen-d */
+/* { */
+ /* max-width:700px; */
+/* } */
 .screen4{
   width: 80%;
   position: relative;
-  left: 3rem;
+  left: -2rem;
   top: -rem;
 }
 .screen2{
-width: 80%;
+height: 700px;
+width: 670px;
 position: relative;
-left: -8rem;
+left: -2.1rem;
 }
 .screen3{
 width: 80%;
 position: relative;
-left: 6em;
+left: 2.5em;
 top: 1rem;
 }
 .store{
   width:250px;
-  margin:0px;
-  padding:0%;
+position:relative;
+top: 1rem;
+left: -1rem;
+
 }
 
 h2{
   color:#333;
-  letter-spacing:5px;
+  letter-spacing:4px;
   margin-bottom:25px;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 p{
   font-size:28px;
   line-height:1.3;
+  color: #887a7a;
 }
 
 footer{
@@ -108,13 +149,13 @@ footer{
 
 }
 .pera{
-  height: 100px;
+  height: 150px;
 }
 .vector{
-  height: 80px;
+  height: 89px;
   position: relative;
-  top: -4rem;
-  left: -11rem;
+  top: -7.5rem;
+  left: -16rem;
   margin-bottom: 50px;
 
 
@@ -122,10 +163,23 @@ footer{
 }
 .v-text{
   position: relative;
-  top: -4rem;
-  left:-10rem ;
+  top: -5rem;
+  left:-12rem ;
 }
-
+.v-text h2{
+  font-size: 2.3rem;
+  font-weight: 510;
+  letter-spacing: 8px;
+}
+.v-text p{
+  font-size: 2rem;
+  letter-spacing: 4px;
+  font-weight: lighter;
+  /* font-weight: -1000rem; */
+}
+.bottom{
+  margin-top: 38px;
+}
 @media(max-width:700px){
   section{
     flex-direction:column;
